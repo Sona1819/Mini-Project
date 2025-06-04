@@ -51,7 +51,7 @@ To demonstrate how a DevOps Engineer:
 
 ---
 ##  Folder Structure
-<pre><code>``` Mini-Project/ │ ├── app/ # Sample web app (Node.js or HTML) ├── docker/ # Dockerfile for containerization ├── jenkins/ # Jenkinsfile for CI/CD automation ├── k8s/ # Kubernetes deployment & service YAMLs ├── terraform/ # AWS infra setup using Terraform ├── ansible/ # Configuration playbooks (e.g., EC2 provisioning) ├── scripts/ # Bash scripts for automation tasks ├── .gitignore # Ignore unnecessary files └── README.md # Project documentation (this file) ```</code></pre>
+<pre><code> ``` Mini-Project/ │ ├── app/ # Sample web app (Node.js or HTML) ├── docker/ # Dockerfile for containerization ├── jenkins/ # Jenkinsfile for CI/CD automation ├── k8s/ # Kubernetes deployment & service YAMLs ├── terraform/ # AWS infra setup using Terraform ├── ansible/ # Configuration playbooks (e.g., EC2 provisioning) ├── scripts/ # Bash scripts for automation tasks ├── .gitignore # Ignore unnecessary files └── README.md # Project documentation (this file) ``` </code></pre>
 
 
 ---
@@ -67,7 +67,7 @@ We’ll deploy a **simple static website (HTML)** or **basic Node.js app**:
 
 ##  DevOps Workflow Overview
 
-<pre><code>``` [ Code ] → [ GitHub Repo ] ↓ [ Jenkins CI/CD Pipeline ] ↓ [ Docker Image Created ] ↓ [ Deploy to Kubernetes on AWS EC2 ] ↓ [ Infrastructure Provisioned via Terraform ] ↓ [ EC2 Configured with Ansible ] ↓ [ Logs & Monitoring (Optional Prometheus) ] ```</code></pre>
+<pre><code> ``` [ Code ] → [ GitHub Repo ] ↓ [ Jenkins CI/CD Pipeline ] ↓ [ Docker Image Created ] ↓ [ Deploy to Kubernetes on AWS EC2 ] ↓ [ Infrastructure Provisioned via Terraform ] ↓ [ EC2 Configured with Ansible ] ↓ [ Logs & Monitoring (Optional Prometheus) ] ``` </code></pre>
 ---
 
 ##  What This Project Proves (Skills Demonstrated)
